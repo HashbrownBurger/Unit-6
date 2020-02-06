@@ -54,12 +54,6 @@ public class FrequencyChart {
             + "\n51 - 60| " + sixth + "\n61 - 70| " + seventh + "\n71 - 80| " + eighth + "\n81 - 90| " + ninth + "\n91 - 100| " + tenth);
     }
 
-
-
-
-
-
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
