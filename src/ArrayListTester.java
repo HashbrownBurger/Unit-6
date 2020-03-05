@@ -38,5 +38,17 @@ public class ArrayListTester {
         System.out.println("Expected: BETTY \n Actual: " + test.findMin(people));
 
         System.out.println();
+
+        System.out.println("Purse Test:");
+        Purse myPurse = new Purse();
+        myPurse.add(new Coin(.25, "quarter"));
+        myPurse.add(new Coin(.05, "nickel"));
+        myPurse.add(new Coin(.01, "penny"));
+        myPurse.add(new Coin(.25, "quarter"));
+
+        System.out.println(myPurse);
+        System.out.println("# of Quarters = " + myPurse.count(new Coin(.25, "quarter")));
+        System.out.println("Smallest Coin = " + myPurse.findSmallest());
+        System.out.println("Total of Purse = $" + myPurse.getTotal());
     }
 }

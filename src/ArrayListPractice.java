@@ -52,6 +52,10 @@ public class ArrayListPractice {
         }
         return list.get(spot).getName();
     }
+
+
+
+
 }
 
 
